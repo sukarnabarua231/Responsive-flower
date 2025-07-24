@@ -29,7 +29,8 @@
 /* header-style */
 .navbar{
     max-width: 1140px;
-    max-height: 70px;
+    width: 87%;
+    padding-top: 20px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -50,6 +51,7 @@
 }
 /* banner-style */
 .banner{
+    
     max-width: 1140px;
     margin: 100px auto 0 auto ;
     justify-content: space-between;
@@ -67,5 +69,25 @@
 }
 .banner-img img{
     width: 100%;
+    max-width: 570px;
+    max-height: 355px;
 }
+/* responsive-dwsign */
+@media screen and (max-width:576px){
+    /* header-responsive */
+    .nav-link{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .nav-img img{
+        max-width: 65px;
+        max-height: 80px;
+    }
+   .banner-content{
+    margin-left: 15px;
+   }
+}
+    
 
