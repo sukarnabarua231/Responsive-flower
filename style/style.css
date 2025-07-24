@@ -78,10 +78,11 @@
      max-width: 1140px;
     margin: 100px auto 0 auto ;
     text-align: center;
+    width: 87%;
 }
 .plants h1{
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 3rem;
 }
 .plants p{
     font-weight: 500;
@@ -154,6 +155,7 @@
     font-weight: 500;
     font-size: 1.2rem;
     text-align: left;
+    margin-left: 20px;
 }
 #trusted-badge{
     max-width: 286px;
@@ -172,21 +174,38 @@
     }
     .banner{
         flex-direction: column-reverse;
+        width: 100%;
+    }
+    .banner-content{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .banner-content h1{
+    font-weight: bold;
+    font-size: 3rem;
     }
     .nav-img img{
         max-width: 65px;
         max-height: 80px;
     }
-   .banner-content{
-    margin-left: 15px;
-   }
    /* plants-responsive */
    .cart-container{
     grid-template-columns: repeat(2,1fr);
-    padding: 20px;
 }
 .break{
     display: none;
+}
+/* plants-lover-responsive */
+
+#trusted-badge{
+    display: none;
+}
+.plants-lover{
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+.plants-lover-content{
+
 }
 } 
 
