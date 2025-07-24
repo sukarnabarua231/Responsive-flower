@@ -53,6 +53,7 @@
 .banner{
     
     max-width: 1140px;
+     width: 87%;
     margin: 100px auto 0 auto ;
     justify-content: space-between;
 }
@@ -119,6 +120,49 @@
     background-color: #E95A08;
     border: none;
     
+}
+/* plants-lover-style */
+.plants-lover{
+    max-width: 1140px;
+    width: 87%;
+    margin: 200px auto 0 auto ;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 150px;
+
+}
+.plants-lover-img img{
+    width: 100%;
+     max-width: 540px;
+    max-height: 580px;
+}
+.plants-lover-content li{
+    margin-top: 10px;
+    
+}
+.plants-lover-content h1{
+    font-weight: bold;
+    font-size:3.1rem ;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.plants-lover-content{
+    max-width: 540px;
+    max-height: 521px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: left;
+}
+#trusted-badge{
+    max-width: 286px;
+    max-height: 286px;
+    width: 100%;
+    position: relative;
+    top: -130px;
+    left: -150px;
+
 }
 /* responsive-dwsign */
 @media screen and (max-width:576px){
