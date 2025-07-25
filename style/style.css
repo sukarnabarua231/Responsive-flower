@@ -287,7 +287,6 @@
     cursor: pointer;
 }
 .footer{
-    border: 2px solid seagreen;
      max-width: 1140px;
     width: 87%;
     margin: 50px auto ;
@@ -319,7 +318,7 @@
     width: 100%;
 }
 .footer-icon img{
-    margin-right: 10px;
+    margin-right: 25px;
 }
 .footer-icon{
     max-width: 216px;
@@ -406,5 +405,14 @@
     font-size: 1.8rem;
     top: 85px;
 }
-} 
+/* footer-responsive */
+.footer{
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-content img{
+    max-width: 180px;
+    max-height: 100px;
+}
+}
 
