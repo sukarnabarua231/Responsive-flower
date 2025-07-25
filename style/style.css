@@ -249,6 +249,7 @@
 }
 /* join-section-style */
 .join{
+    border: 2px solid white;
     height:535px;
     width: 100%;
      margin-top: 80px;
@@ -256,9 +257,18 @@
      background-size: cover;
      background-repeat: no-repeat;
 }
+.join h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3.2rem;
+    position: relative;
+    top: 160px;
+   
+}
 .join-info {
     justify-content: center;
-    margin: 230px auto 0 auto; 
+    margin: 180px auto 0 auto; 
     max-width: 830px;
     max-height: 50px;
 }
@@ -334,6 +344,25 @@
 .Zabo a{
     font-weight: 700;
     font-size: 1rem;
+}
+/* join-section-responsive */
+.join{
+    margin-top: 200px;
+    max-height: 300px;
+}
+.join-info {
+    margin: 100px auto 0 auto; 
+}
+.join-info input{
+    padding:15px 50px 15px 10px ;
+}
+.join-info button{
+    padding: 16px 30px;
+}
+.join h1{
+    font-weight: bold;
+    font-size: 1.8rem;
+    top: 85px;
 }
 } 
 
