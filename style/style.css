@@ -247,7 +247,35 @@
     font-weight: 700;
     font-size: 1.6rem;
 }
-
+/* join-section-style */
+.join{
+    height:535px;
+    width: 100%;
+     margin-top: 80px;
+     background-image: url(../assets/news-letter-bg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.join-info {
+    justify-content: center;
+    margin: 230px auto 0 auto; 
+    max-width: 830px;
+    max-height: 50px;
+}
+.join-info input{
+    padding:15px 400px 15px 30px ;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.join-info button{
+    padding: 16px 60px;
+     font-weight: 400;
+    font-size: 1rem;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 /* responsive-dwsign */
 @media screen and (max-width:576px){
     /* header-responsive */
@@ -282,9 +310,13 @@
 #trusted-badge{
     display: none;
 }
+.plants-lover-content{
+    max-height: none;
+}
 .plants-lover{
     grid-template-columns: repeat(1,1fr);
     gap: 10px;
+    margin-top: 100px;
 }
 /* latest-deals-responsive */
 .deal-container{
