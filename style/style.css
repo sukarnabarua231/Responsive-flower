@@ -49,6 +49,9 @@
     max-width: 130px;
     max-height: 80px;
 }
+.navbar a:hover,.nav-item:hover{
+    color: #E95A08;
+}
 /* banner-style */
 .banner{
     
@@ -164,6 +167,15 @@
     position: relative;
     top: -130px;
     left: -150px;
+    animation: badge 2s linear infinite;
+}
+@keyframes badge{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 /* latest-deal-section-style */
 .latest-deals{
@@ -250,6 +262,7 @@
 /* join-section-style */
 .join{
     border: 2px solid white;
+    border: none;
     height:535px;
     width: 100%;
      margin-top: 80px;
@@ -376,7 +389,7 @@
     margin: 50px auto 0 auto;
 }
 .Zabo-content{
-    padding: 60px 0;
+    padding: 65px 0;
 }
 .Zabo p{
      font-weight: bold;
@@ -393,6 +406,7 @@
 }
 .join-info {
     margin: 100px auto 0 auto; 
+    width: 80%;
 }
 .join-info input{
     padding:15px 50px 15px 10px ;
